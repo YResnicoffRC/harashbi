@@ -1,0 +1,113 @@
+.other-pages {
+    &_hero {
+        background: #000;
+        color: #fff;
+        text-align: center;
+        padding:172px 20px 100px 20px;
+          @media(max-width:750px){
+           padding-bottom: 50px;
+        }
+    }
+    &_title {
+        font-size: 43px;
+        font-weight: 700;
+        font-family: "latienne-pro";
+        @media(max-width:750px){
+            font-size: 35px;
+        }
+    }
+    &_paragraph {
+        margin-top: 20px;
+        color: grba(255,255,255,0.8);
+        font-size: 15px;
+          @media(max-width:750px){
+            font-size: 13px;
+            line-height: 1.7;
+        }
+    }
+}
+
+.activities-card {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 170PX;
+    overflow: hidden;
+      @media(max-width:976px){
+           margin-bottom: 100px;
+        }
+
+     @media(max-width:830px){
+         flex-flow: column;
+      }
+    &_container {
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top:10%;
+    }
+    &_image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        width: 48%;
+        @include image-ratio(692,484);
+        border-radius: 10px;
+      @media(max-width:830px){
+        margin-bottom: 20px;
+        width: 100%;
+        border-radius: 0;
+      }
+    }
+    &_text {
+        width: 42%;
+    @media(max-width:830px){
+        width: 100%;
+          max-width: 500px;
+          margin: 0 auto;
+          margin-top: 15px;
+          margin-bottom: 20px;
+      }
+        
+    }
+    &_yiddish-title {
+        color: #EF5434;
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-family: "usual";
+    }
+    &_english-title {
+        font-size: 36px;
+        font-family: "latienne-pro";
+        font-weight: 700;
+        margin-bottom: 30px;
+          @media(max-width:976px){
+            font-size: 28px;
+        }
+    }
+    &_paragraph {
+        font-size: 18px;
+        line-height: 46px;
+        max-width: 530px;
+        font-weight: 600;
+          @media(max-width:976px){
+        }
+
+    }
+
+    &:nth-child(even) {
+        .activities-card_image {
+            order: 2;
+              @media(max-width:830px){
+         order: 1;
+      }
+        }
+        .activities-card_text {
+            order: 1;
+                    @media(max-width:830px){
+         order: 2;
+      }
+        }
+    }
+}

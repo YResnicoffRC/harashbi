@@ -1,0 +1,59 @@
+﻿/**
+ * @license
+ * MyFonts Webfont Build ID 3468099, 2017-10-20T09:13:41-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirNextLTPro-Medium by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-medium/
+ * 
+ * Webfont: AvenirNextLTPro-Regular by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-regular/
+ * 
+ * Webfont: AvenirNextLTPro-Bold by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-bold/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3468099
+ * Licensed pageviews: 2,500,000
+ * webfonts copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34eb43");
+@import url("//hello.myfonts.net/count/350e0d");
+
+  
+@font-face {font-family: 'AvenirNextLTPro-Medium';src: url('webfonts/34EB43_0_0.eot');src: url('webfonts/34EB43_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34EB43_0_0.woff2') format('woff2'),url('webfonts/34EB43_0_0.woff') format('woff'),url('webfonts/34EB43_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextPro';font-weight: normal;font-style: normal;src: url('webfonts/34EB43_1_0.eot');src: url('webfonts/34EB43_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34EB43_1_0.woff2') format('woff2'),url('webfonts/34EB43_1_0.woff') format('woff'),url('webfonts/34EB43_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextPro';font-weight: bold;font-style: normal;src: url('webfonts/34EB43_2_0.eot');src: url('webfonts/34EB43_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34EB43_2_0.woff2') format('woff2'),url('webfonts/34EB43_2_0.woff') format('woff'),url('webfonts/34EB43_2_0.ttf') format('truetype');}
+
+
+/*Avenir Condensed Fonts*/
+
+@font-face {font-family: 'AvenirNextLTPro-Cn';src: url('webfonts/350E0D_0_0.eot');src: url('webfonts/350E0D_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/350E0D_0_0.woff2') format('woff2'),url('webfonts/350E0D_0_0.woff') format('woff'),url('webfonts/350E0D_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'AvenirNextLTPro-DemiCn';src: url('webfonts/350E0D_1_0.eot');src: url('webfonts/350E0D_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/350E0D_1_0.woff2') format('woff2'),url('webfonts/350E0D_1_0.woff') format('woff'),url('webfonts/350E0D_1_0.ttf') format('truetype');}
+
+/*Minion Condensed */
+
+@font-face {
+    font-family: 'minionregular_display_expert';
+    src: url('webfonts/minion_display_expert_regular.woff2') format('woff2'),
+    url('webfonts/minion_display_expert_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

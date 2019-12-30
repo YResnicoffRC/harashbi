@@ -1,0 +1,111 @@
+header {
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    padding: 20px;
+    z-index: 200;
+}
+
+.header-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    @media(max-width: 840px){
+        display: block;
+    }
+}
+
+.hamburger {
+    display: none;
+    @media(max-width: 840px){
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        top: 20px;
+        padding: 10px;
+        right: 20px;
+    }
+}
+
+.logo {
+    &_image {
+        background: url('../images/global/logo.png') 50% 50% no-repeat;
+        background-size: contain;
+        width: 196px;
+        height: 133px;
+        display: block;
+    }
+    @media(max-width: 840px){
+        margin: 0 auto;
+        width: 166px;
+        height: 103px;
+    }
+}
+
+.nav {
+    @media(max-width: 840px){
+        display: none;
+    }
+    &_list {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &_item {
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 10px;
+        margin-left: 30px;
+        font-size: 14px;
+        letter-spacing: 2.5px;
+        font-weight: 300;
+        cursor: pointer;
+        a {
+            color: #ffffff;
+text-decoration: none;            
+        }
+    }
+}
+
+.mobile-nav {
+    @media (min-width: 840px) {
+      display: none;
+    }
+  
+    &.open {
+        right: 0;
+    }
+    position: fixed;
+    top: 0;
+    right: -1000px;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 999999;
+    overflow: auto;
+    transition: right 230ms ease-in-out;
+
+    &_content{
+        ul{
+            margin: 40px 0;
+            li a{
+                display: block;
+                color: #fff;
+                font-size: 13PX;
+                text-transform: uppercase;
+                padding: 20px 0;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}

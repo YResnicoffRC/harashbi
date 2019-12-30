@@ -1,0 +1,9 @@
+[build]
+    functions = "src/assets/functions/"
+
+[context.production]
+    functions = "dist/assets/functions/"
+
+[context.deploy-preview]
+    functions = "dist/assets/functions/"
+

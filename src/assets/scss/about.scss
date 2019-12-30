@@ -1,0 +1,85 @@
+.about-hero {
+    width: 100%;
+    height: 590px;
+    background: url('../images/about/about-hero.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.about {
+    &_container {
+        width: 95%;
+        max-width: 1062px;
+        margin: 0 auto;
+        padding: 50px 0;
+        position: relative;
+        margin-top:140px;
+            @media(max-width:868px){
+      margin-top: 80px;
+         }
+    }
+    &_tag {
+        background: url('../images/about/tag.png') 50% 50% no-repeat;
+        @include image-ratio(538, 110);
+        width: 100%;
+        max-width: 470px;
+        background-size: contain;
+        margin-bottom: 40px;
+
+         @media(max-width:868px){
+        text-align: center;
+        margin: 0 auto  ;
+        margin-bottom: 30px;
+         }
+    }
+    &_title {
+        font-size: 44px;
+        max-width: 400px;
+        font-family: "latienne-pro";
+        font-weight: 700;
+          @media(max-width:868px){
+            text-align: center;
+            margin: 0 auto  
+                }
+
+                    @media(max-width:700px){
+           font-size: 35px;
+                }
+    }
+    &_profile {
+        background: url('../images/about/about-profile.jpg') 50% 50% no-repeat;
+        width: 330px;
+        height: 330px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        right: 0;
+         @media(max-width:868px){
+             display: none;
+      }
+    }
+    &_paragraph {
+        font-size: 18px;
+        line-height: 40px;
+        width: 100%;
+        margin-top: 140px;
+        font-weight: 600;
+        max-width: 750px;
+            @media(max-width:700px){
+                margin-top: 45px
+                }
+        p {
+            margin-bottom: 50px;
+            max-width: 840px;
+        }
+    }
+    &_bottom{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 326px;
+        margin: 70px 0;
+        background: url('../images/about/about-bottom.jpg') 50% 50% no-repeat;
+    }
+}

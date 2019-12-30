@@ -1,0 +1,54 @@
+body {
+    background: #fff;
+    font-family: "usual";
+}
+
+h1 {
+    font-family: "latienne-pro";
+}
+a{
+    text-decoration: none;
+    
+    
+}
+
+.cta {
+    color: #fff;
+    background: linear-gradient(135deg, #FF2C00, #CE5E09 100%);
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: inline-block;
+    font-weight: 700;
+    transition: all 300s ease;
+    &:hover {
+      
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 2px;
+        
+    }
+    
+    &--header {
+        padding: 19px 28px;
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    &--big {
+        padding: 30px 65px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1.7px;
+        @media(max-width: 667px){
+            padding: 20px 45px;
+            font-size: 15px;
+        }
+
+    }
+}
