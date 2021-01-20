@@ -38,7 +38,7 @@
     "filesize": "^3.5.11",
     "firebase": "^4.12.1",
     "google-recaptcha": "^1.1.0",
-    "gsap": "^1.20.3",
+    "gsap": "^3.6.0",
     "handlebars": "^4.0.11",
     "handlebars-helper-repeat": "^1.0.0",
     "handlebars-helpers": "^0.10.0",
